@@ -10,8 +10,3 @@ The app will manage inventories and keep a record of suppliers.
 
 - JavaScript
 
-## Project Structure
-
-<br/>
-
-![](./src/assets/UML-project-structure.PNG)
