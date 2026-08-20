@@ -1,7 +1,7 @@
 const ProductType = Object.freeze({
   INGREDIENT: 'INGREDIENT',
   BEVERAGE: 'BEVERAGE',
-  CONDIMENT: 'CONDIMENT',
+  COMPOUND: 'COMPOUND',
 });
 
-export default ProductType;
+export default ProductType;                                                                                                                                                                                                                                                                          

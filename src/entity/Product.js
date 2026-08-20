@@ -2,19 +2,17 @@ class Product {
   constructor({
     id,
     name,
-    unitPrice,
-    amount,
-    purchaseDate,
+    measureUnit,
     productType,
-    unitOfMeasure,
+    measureUnit,
+    ingredient
   }) {
     this.id = id;
     this.name = name;
     this.unitPrice = unitPrice;
-    this.amount = amount;
-    this.purchaseDate = purchaseDate;
     this.productType = productType;
-    this.unitOfMeasure = unitOfMeasure;
+    this.measureUnit = measureUnit;
+    this.ingredient = ingredient;
   }
 }
 
