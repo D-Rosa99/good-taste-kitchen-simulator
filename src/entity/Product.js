@@ -2,8 +2,8 @@ class Product {
   constructor({
     id,
     name,
-    measureUnit,
     productType,
+    unitPrice,
     measureUnit,
     ingredient
   }) {
