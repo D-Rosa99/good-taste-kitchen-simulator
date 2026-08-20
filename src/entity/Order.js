@@ -1,21 +1,21 @@
-class Order {
+import { KitchenTrace } from './KitchenTrace.js';
+
+class Order extends KitchenTrace {
   constructor({
     id,
     orderStatus,
-    date,
-    price,
     employeeId,
-    recipe,
-    customerId,
+    orderDetails,
   }) {
+    super({ orderId: id, createdBy: employeeId, updatedBy: employeeId, createAt: new Date() });
+
     this.id = id;
     this.orderStatus = orderStatus;
-    this.date = date;
-    this.price = price;
-    this.employeeId = employeeId;
-    this.dishName = dishName;
-    this.customerId = customerId
+    this.totalPrice;
+    this.orderDetails = orderDetails;
   }
+
+  calculateTotalPrice = () => {}
 }
 
 export default Order;
