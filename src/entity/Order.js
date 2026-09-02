@@ -1,6 +1,4 @@
-import { KitchenTrace } from './KitchenTrace.js';
-
-class Order extends KitchenTrace {
+class Order {
   constructor({
     id,
     orderStatus,
