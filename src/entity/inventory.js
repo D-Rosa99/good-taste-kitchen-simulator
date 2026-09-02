@@ -1,11 +1,11 @@
 class Inventory {
   constructor({
     id,
-    productId,
+    type,
     avaiableQuantity
   }) {
     this.id = id;
-    this.productId = productId;
+    this.type = type;
     this.avaiableQuantity = avaiableQuantity;
   }
 }

@@ -5,7 +5,8 @@ class Product {
     productType,
     unitPrice,
     measureUnit,
-    ingredient
+    ingredient,
+    recipe
   }) {
     this.id = id;
     this.name = name;
@@ -13,6 +14,7 @@ class Product {
     this.productType = productType;
     this.measureUnit = measureUnit;
     this.ingredient = ingredient;
+    this.recipe = recipe;
   }
 }
 
