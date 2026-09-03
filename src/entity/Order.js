@@ -5,8 +5,6 @@ class Order {
     employeeId,
     orderDetails,
   }) {
-    super({ orderId: id, createdBy: employeeId, updatedBy: employeeId, createAt: new Date() });
-
     this.id = id;
     this.orderStatus = orderStatus;
     this.totalPrice;
